@@ -1,0 +1,88 @@
+.app-container {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .input-section {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .input-section input,
+    .input-section select {
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .input-section button {
+      padding: 10px 15px;
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .revenus,
+    .depenses,
+    .solde {
+      font-size: 1.1em;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .revenus {
+      background-color: #d4edda;
+      color: #155724;
+    }
+
+    .depenses {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+
+    .solde {
+      background-color: #e9ecef;
+    }
+
+    .transactions {
+      margin-top: 20px;
+    }
+
+    .transaction-columns {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+
+    .transaction {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .transaction button {
+      background-color: #d9534f;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
